@@ -16,3 +16,17 @@ Content-Type: application/json
     "source_id": "1",
     "destination_id": "2"
 }
+
+### Coisas do mapa
+
+### Pegar o place_id
+GET http://localhost:3000/places?text=R. wilson calza, presidente prudente, 183
+
+### Minha casa
+### ChIJAQULSLD2k5QR3C6OdqmEoXE
+
+### Casa da Bi
+### ChIJ1TpgPyD0k5QRimbaavaKeJo
+
+### Pegar direções entre 2 pontos
+GET http://localhost:3000/directions?originId=ChIJAQULSLD2k5QR3C6OdqmEoXE&destinationId=ChIJ1TpgPyD0k5QRimbaavaKeJo

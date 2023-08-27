@@ -25,6 +25,7 @@ export class RoutesService {
             lng: 0,
           },
         },
+        distance: 0,
         duration: 0,
         directions: '{}',
       },
