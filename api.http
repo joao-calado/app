@@ -5,7 +5,7 @@ GET http://localhost:3000
 GET http://localhost:3000/routes
 
 ###
-GET http://localhost:3000/routes/1
+GET http://localhost:3000/routes/64ed4b9b3ad737bd78b5da5f
 
 ###
 POST http://localhost:3000/routes
@@ -13,8 +13,8 @@ Content-Type: application/json
 
 {
     "name": "route test 1",
-    "source_id": "1",
-    "destination_id": "2"
+    "source_id": "ChIJAQULSLD2k5QR3C6OdqmEoXE",
+    "destination_id": "ChIJ1TpgPyD0k5QRimbaavaKeJo"
 }
 
 ### Coisas do mapa
